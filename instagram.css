@@ -1,0 +1,435 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: #E5E5E5;
+    font-family: 'Roboto',sans-serif;
+    display: flex;
+}
+a{
+    color:#000000;
+    text-decoration: none;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index:1;
+}
+.head-left{
+    margin-left:16%;
+    display: flex;
+}
+.head-left img{
+    margin-left:11.87px;
+    border-left: 1px solid #DBDBDB;
+    padding-left:11.87px;
+}
+input{
+    width:100%;
+    height: 28px;
+    border:1px solid #DBDBDB;
+    background-color: #E5E5E5;
+    font-family: 'Roboto';
+    text-align: center;
+}
+.head-right{
+    margin-right: 16%;
+}
+ion-icon{
+    font-size: 22px;
+    margin-right:7px;
+}
+#right{
+    font-size:24px;
+}
+main{
+    margin-top:54px;
+    width:45.51%;
+    margin-top:88px;
+    margin-left:16%;
+}
+header{
+    height: 118.26px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    overflow-x:hidden;
+    border: 1px solid #DBDBDB;
+}
+button{
+    width:26px;
+    height: 26px;
+    border-radius: 50%;
+    position: absolute;
+    left: 58%;
+    background: none;
+    border:none;
+}
+button .icon{
+    width:26px;
+    height: 26px;
+    color:white;
+}
+.story{
+    margin-left:23px;
+}
+
+.story-text{
+    font-family:'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    height: 14.06px;
+    text-align: center;
+}
+.story-img{
+    background-image: url("images/stories.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width:66px;
+    height: 66px;
+}
+.story-img img{
+    width: 56px;
+    height: 56px;
+    margin: 5px 5px;
+    border-radius: 50%;
+}
+.story1{
+    margin-left: 18px;
+}
+.post{
+    border: 1px solid #DBDBDB;
+    background-color:#FFFFFF;
+    margin-top:15px;
+}
+.top-post{
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-left{
+    width: 50%;
+    display: flex;
+    margin-left: 17px;
+}
+.post-left img{
+   width: 32px;
+   height: 32px;
+   border-radius:50%;
+}
+.post-left p{
+   padding-left: 15px;
+   margin-top:7px;
+   font-weight: 500;
+}
+.post-right{
+    margin-right: 18.5px;
+}
+.post-img{
+    width: 100%;
+}
+video{
+    width:100%;
+}
+.post-data{
+    display: block;
+}
+.icons{
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.data-left{
+    display: flex;
+    margin-left: 5px;
+}
+.post-icons{
+    margin:5px 7px;
+    font-size: 19px;
+    z-index: -1;
+}
+.comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 42px;
+    border-top: 1px solid #DBDBDB;
+    padding: 0 5px 0 5px;
+}
+.comment-left{
+    display: flex;
+}
+.comment input{
+    background-color: #FFFFFF;
+    border:none;
+    width:80%;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    text-align: left;
+}
+.comment-right a{
+    font-family: 'Roboto';
+    font-weight: 500;
+    color:#B2DFFC;
+}
+.comment-right a:hover{
+    color:#0095F6;
+    transition:300ms;
+}
+.data-bottom{
+    height: 38px;
+    display: flex;
+    align-items: center;
+    margin-left:12px;
+}
+.data-bottom img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+section{
+    position: fixed;
+    width: 21.72%;
+    top:88px;
+    right: 15%;
+}
+.up{
+    display: flex;
+    align-items: center;
+}
+.up-text{
+    margin-left: 17px;
+}
+.up img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+.midle{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+#midle1{
+    font-family: 'Roboto';
+    font-weight: 500;
+    color:#8E8E8E;
+}
+#midle2{
+    font-family: 'Roboto';
+    color:#262626;
+    font-weight: 500;
+}
+.behind{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:28px;
+    height: 32px;
+}
+.behind-left{
+    display: flex;
+}
+.behind-left img{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+.behind-text{
+    margin-left:11px;
+}
+#behind-text1{
+    font-family: 'Roboto';
+    font-weight: 500;
+    line-height: 16.41px;
+}
+#behind-text2{
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #8e8e8e;
+    font-size: 14px;
+    margin-top:6px;
+}
+#seguir{
+    font-family: 'Roboto';
+    font-weight: 500;
+    line-height: 14.06px;
+    color:#139EF2;
+}
+footer{
+    margin-top:30px;
+}
+footer p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size:11px;
+    color:#C7C7C7;
+}
+.down-bar{
+    display: none;
+}
+
+
+@media(max-width:935px){
+    nav{
+        position: fixed;
+        width: 100%;
+        height: 54px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+        border: 1px solid #DBDBDB;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .head-left{
+        margin-left:0;
+        display: flex;
+    }
+    .head-right{
+        margin-right: 0;
+    }
+    .head-midle{
+        margin-right: 120px;
+    }
+    section{
+        display: none;
+    }
+    body{
+            background: #E5E5E5;
+            font-family: 'Roboto',sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+    main{
+        width:68%;
+        margin-top:88px;
+        margin-left:0;
+    }   
+    #head-icon{
+        display: none;
+    }
+    button{
+        width:26px;
+        height: 26px;
+        border-radius: 50%;
+        position: absolute;
+        left: 68%;
+        background: none;
+        border:none;
+    }
+    .down-bar{
+        display: none;
+    }
+}
+
+@media(max-width:614px){
+    body{
+
+    }
+    .head-left{
+        margin-left:0;
+        display: flex;
+    }
+    .head-left img{
+        margin-left:11.87px;
+        border-left: 1px solid #DBDBDB;
+        padding-left:11.87px;
+    }
+    input{
+        width:100%;
+        height: 28px;
+        border:1px solid #DBDBDB;
+        background-color: #E5E5E5;
+        font-family: 'Roboto';
+        text-align: center;
+    }
+    .head-right{
+        margin-right: 0;
+    }
+    ion-icon{
+        font-size: 22px;
+        margin-right:7px;
+        z-index: -1;
+    }
+    #right{
+        font-size:24px;
+    }
+    .head-midle{
+        display: none;
+    }
+    .post{
+    border: 1px solid #DBDBDB;
+    background-color:#FFFFFF;
+    margin-top:30px;
+    }   
+    main{
+        width:100%;
+        margin-top:54px;
+        margin-left:0;
+    }   
+    
+    button{
+        width:26px;
+        height: 26px;
+        border-radius: 50%;
+        position: absolute;
+        left: 88%;
+        background: none;
+        border:none;
+    }
+    header{
+        height: 118.26px;
+        display: flex;
+        align-items: center;
+        background-color: #E5E5E5;;
+        overflow-x:auto;
+        border: 1px solid #DBDBDB;
+    }
+    /*It's a way to hide the scroll e make it work*/
+    .header {
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        scrollbar-width: none;  /* Firefox */
+    }
+    .container::-webkit-scrollbar { 
+        display: none;  /* Safari and Chrome */
+    }
+    .story-img{
+        background-image: url("images/stories.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        border-radius: 50%;
+        width:66px;
+        height: 66px;
+    }
+    #post1{
+        margin-top: 0;
+    }
+    .down-bar{
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5px;
+        background-color:#FFFFFF;    
+    }
+    .icon-down{
+        z-index: 1;
+    }
+}
